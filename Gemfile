@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
@@ -13,6 +12,15 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+#gem 'jquery-turbolinks'
+gem 'haml', '~> 4.0.6'
+gem 'simple_form', '~> 3.1.0'
+gem 'bootstrap-sass', '~> 3.3.4.1'
+gem 'jquery-turbolinks'
+gem 'paperclip', '~> 4.2.1'
+gem 'cocoon', '~> 1.2.6'
+gem 'devise', '~> 3.4.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
